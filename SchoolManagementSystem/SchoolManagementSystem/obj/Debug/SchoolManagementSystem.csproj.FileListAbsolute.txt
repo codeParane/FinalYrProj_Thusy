@@ -1,0 +1,11 @@
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.pdb
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\System.Windows.Forms.Ribbon.dll
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csprojResolveAssemblyReference.cache
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Properties.Resources.resources
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.GenerateResource.Cache
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.frm_login.resources
+D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.frm_Main.resources
