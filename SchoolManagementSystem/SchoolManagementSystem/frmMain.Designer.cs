@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Main));
             this.rib_Student = new System.Windows.Forms.RibbonTab();
             this.rpan_newStudent = new System.Windows.Forms.RibbonPanel();
+            this.rpan_editStudent = new System.Windows.Forms.RibbonPanel();
+            this.rpan_findStudents = new System.Windows.Forms.RibbonPanel();
             this.rib_Staff = new System.Windows.Forms.RibbonTab();
             this.ribbonLabel1 = new System.Windows.Forms.RibbonLabel();
             this.ribbonLabel2 = new System.Windows.Forms.RibbonLabel();
@@ -40,9 +42,13 @@
             this.ribbonLabel6 = new System.Windows.Forms.RibbonLabel();
             this.ribbonLabel7 = new System.Windows.Forms.RibbonLabel();
             this.ribbon1 = new System.Windows.Forms.Ribbon();
-            this.rpan_editStudent = new System.Windows.Forms.RibbonPanel();
-            this.rpan_findStudents = new System.Windows.Forms.RibbonPanel();
             this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel1 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonTab3 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonPanel4 = new System.Windows.Forms.RibbonPanel();
             this.SuspendLayout();
             // 
             // rib_Student
@@ -61,6 +67,20 @@
             this.rpan_newStudent.Name = "rpan_newStudent";
             this.rpan_newStudent.Text = "New Student";
             this.rpan_newStudent.Click += new System.EventHandler(this.rpan_newStudent_Click);
+            // 
+            // rpan_editStudent
+            // 
+            this.rpan_editStudent.ButtonMoreEnabled = false;
+            this.rpan_editStudent.ButtonMoreVisible = false;
+            this.rpan_editStudent.Name = "rpan_editStudent";
+            this.rpan_editStudent.Text = "Edit Student";
+            // 
+            // rpan_findStudents
+            // 
+            this.rpan_findStudents.ButtonMoreEnabled = false;
+            this.rpan_findStudents.ButtonMoreVisible = false;
+            this.rpan_findStudents.Name = "rpan_findStudents";
+            this.rpan_findStudents.Text = "Find Student";
             // 
             // rib_Staff
             // 
@@ -122,28 +142,54 @@
             this.ribbon1.Tabs.Add(this.rib_Student);
             this.ribbon1.Tabs.Add(this.rib_Staff);
             this.ribbon1.Tabs.Add(this.ribbonTab1);
+            this.ribbon1.Tabs.Add(this.ribbonTab2);
+            this.ribbon1.Tabs.Add(this.ribbonTab3);
             this.ribbon1.TabsMargin = new System.Windows.Forms.Padding(6, 26, 20, 0);
             this.ribbon1.TabSpacing = 3;
             this.ribbon1.Text = "ribbon1";
             // 
-            // rpan_editStudent
-            // 
-            this.rpan_editStudent.ButtonMoreEnabled = false;
-            this.rpan_editStudent.ButtonMoreVisible = false;
-            this.rpan_editStudent.Name = "rpan_editStudent";
-            this.rpan_editStudent.Text = "Edit Student";
-            // 
-            // rpan_findStudents
-            // 
-            this.rpan_findStudents.ButtonMoreEnabled = false;
-            this.rpan_findStudents.ButtonMoreVisible = false;
-            this.rpan_findStudents.Name = "rpan_findStudents";
-            this.rpan_findStudents.Text = "Find Student";
-            // 
             // ribbonTab1
             // 
             this.ribbonTab1.Name = "ribbonTab1";
+            this.ribbonTab1.Panels.Add(this.ribbonPanel1);
             this.ribbonTab1.Text = "Reports";
+            // 
+            // ribbonPanel1
+            // 
+            this.ribbonPanel1.Name = "ribbonPanel1";
+            this.ribbonPanel1.Text = "ribbonPanel1";
+            // 
+            // ribbonTab2
+            // 
+            this.ribbonTab2.Name = "ribbonTab2";
+            this.ribbonTab2.Panels.Add(this.ribbonPanel2);
+            this.ribbonTab2.Text = "Attandance";
+            // 
+            // ribbonPanel2
+            // 
+            this.ribbonPanel2.Name = "ribbonPanel2";
+            this.ribbonPanel2.Text = "ribbonPanel2";
+            // 
+            // ribbonTab3
+            // 
+            this.ribbonTab3.Name = "ribbonTab3";
+            this.ribbonTab3.Panels.Add(this.ribbonPanel3);
+            this.ribbonTab3.Panels.Add(this.ribbonPanel4);
+            this.ribbonTab3.Text = "TimeTable";
+            // 
+            // ribbonPanel3
+            // 
+            this.ribbonPanel3.ButtonMoreEnabled = false;
+            this.ribbonPanel3.ButtonMoreVisible = false;
+            this.ribbonPanel3.Name = "ribbonPanel3";
+            this.ribbonPanel3.Text = "View Time Table";
+            // 
+            // ribbonPanel4
+            // 
+            this.ribbonPanel4.ButtonMoreEnabled = false;
+            this.ribbonPanel4.ButtonMoreVisible = false;
+            this.ribbonPanel4.Name = "ribbonPanel4";
+            this.ribbonPanel4.Text = "Change Time Table";
             // 
             // frm_Main
             // 
@@ -155,7 +201,7 @@
             this.IsMdiContainer = true;
             this.KeyPreview = true;
             this.Name = "frm_Main";
-            this.Text = "School Management System";
+            this.Text = "View";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
@@ -177,6 +223,12 @@
         private System.Windows.Forms.RibbonPanel rpan_editStudent;
         private System.Windows.Forms.RibbonPanel rpan_findStudents;
         private System.Windows.Forms.RibbonTab ribbonTab1;
+        private System.Windows.Forms.RibbonPanel ribbonPanel1;
+        private System.Windows.Forms.RibbonTab ribbonTab2;
+        private System.Windows.Forms.RibbonPanel ribbonPanel2;
+        private System.Windows.Forms.RibbonTab ribbonTab3;
+        private System.Windows.Forms.RibbonPanel ribbonPanel3;
+        private System.Windows.Forms.RibbonPanel ribbonPanel4;
     }
 }
 

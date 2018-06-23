@@ -20,12 +20,16 @@ namespace SchoolManagementSystem
         public static String userRole = "";
         private void frmMain_Load(object sender, EventArgs e)
         {
-            rpan_editStudent.Enabled = false;
+            if (userRole.Equals("clark"))
+            {
+                rpan_editStudent.Enabled = false;
+            }
+            
         }
 
         private void rpan_newStudent_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("ok");
+            //MessageBox.Show("ok");
             Form form1 = new frm_login();
             form1.MdiParent = this;
             form1.Show();

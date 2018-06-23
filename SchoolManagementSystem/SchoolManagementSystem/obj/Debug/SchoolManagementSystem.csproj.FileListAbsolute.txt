@@ -9,3 +9,14 @@ D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManageme
 D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
 D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.frm_login.resources
 D:\Thushy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.frm_Main.resources
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.pdb
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\System.Windows.Forms.Ribbon.dll
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csprojResolveAssemblyReference.cache
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.frm_login.resources
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.frm_Main.resources
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Properties.Resources.resources
+D:\Data\Projects\Git_repo\Thushy\FinalYrProj_Thusy\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.GenerateResource.Cache
